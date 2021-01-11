@@ -1,13 +1,14 @@
-id                              INT, PRIMARY KEY
-marca                           VARCHAR(20),
-modello                         VARCHAR(20),
-paese                           VARCHAR(2),
-anno_immatricolazione           YEAR,
-carburante                      VARCHAR(20),
-km                              INT,
-cilindrata                      MEDIUMINT,
-cambio                          VARCHAR(15),
-consumi                         VARCHAR(20),
-posti                           INYINT,
-targa                           VARCHAR(6),
-descrizione                     VARCHAR(200),
+id                              INT, PRIMARY KEY (=> AUTO_INCREMENT, NOT NULL, UNIQUE, INDEX)
+marca                           VARCHAR(20), NOT NULL, INDEX
+modello                         VARCHAR(20), NOT NULL
+paese                           VARCHAR(2)
+anno_immatricolazione           YEAR, NOT NULL
+carburante                      VARCHAR(20), NOT NULL
+km                              INT, NOT NULL
+cilindrata                      MEDIUMINT, NOT NULL
+cambio                          VARCHAR(15), NOT NULL
+consumi                         VARCHAR(20)
+posti                           INYINT, NOT NULL
+targa                           VARCHAR(6), NOT NULL
+prezzo                          DECIMAL (10,2), NOT NULL
+descrizione                     VARCHAR(200)
