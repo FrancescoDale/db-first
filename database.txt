@@ -1,13 +1,13 @@
-id                              INT
+id                              INT, PRIMARY KEY
 marca                           VARCHAR(20),
 modello                         VARCHAR(20),
 paese                           VARCHAR(2),
 anno_immatricolazione           YEAR,
 carburante                      VARCHAR(20),
 km                              INT,
-cilindrata                      INT,
+cilindrata                      MEDIUMINT,
 cambio                          VARCHAR(15),
 consumi                         VARCHAR(20),
-posti                           INT,
+posti                           INYINT,
 targa                           VARCHAR(6),
 descrizione                     VARCHAR(200),
