@@ -1,0 +1,11 @@
+id
+marca
+paese
+anno
+carburante
+km
+cilindrata
+cambio
+consumi
+posti
+targa
