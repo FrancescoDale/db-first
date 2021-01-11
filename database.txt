@@ -1,11 +1,13 @@
-id
-marca
-paese
-anno
-carburante
-km
-cilindrata
-cambio
-consumi
-posti
-targa
+id                              INT
+marca                           VARCHAR(20),
+modello                         VARCHAR(20),
+paese                           VARCHAR(2),
+anno_immatricolazione           YEAR,
+carburante                      VARCHAR(20),
+km                              INT,
+cilindrata                      INT,
+cambio                          VARCHAR(15),
+consumi                         VARCHAR(20),
+posti                           INT,
+targa                           VARCHAR(6),
+descrizione                     VARCHAR(200),
